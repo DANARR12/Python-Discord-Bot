@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
+token = os.getenv('MTM5NDM3MTk3NTkzMzA2NzQzNg.Gxho3b._3SkzHirMAxypS6mkL-UoRdKNWV2nbJN2sGRZE')
 
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
 intents = discord.Intents.default()
